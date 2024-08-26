@@ -320,17 +320,17 @@
             "KC.TRNS",
             "KC.TRNS",
             "KC.ENT",
-            "KC.TRNS",
+            "KC.MW_UP",
             "KC.TRNS",
             "KC.RCTL(KC.RALT(KC.DEL))",
             "KC.TRNS",
             "KC.TRNS",
             "KC.SPC",
             "KC.LCTL(KC.A)",
-            "KC.TRNS",
-            "KC.TRNS",
-            "KC.TRNS",
-            "KC.TRNS",
+            "KC.MB_MMB",
+            "KC.MB_RMB",
+            "KC.MB_LMB",
+            "KC.MW_DN",
             "KC.TRNS",
             "KC.TRNS",
             "KC.TRNS",
@@ -526,5 +526,5 @@
         "macros"
     ],
     "flashingMode": "automatic",
-    "lastEdited": "2024-08-24 01:13"
+    "lastEdited": "2024-08-24 01:16"
 }
