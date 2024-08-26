@@ -273,7 +273,7 @@
             "KC.LSFT",
             "KC.ESC",
             "KC.DEL",
-            "KC.TRNS",
+            "KC.RGUI",
             "KC.DOT",
             "KC.N0",
             "KC.MINS",
@@ -290,7 +290,7 @@
             "KC.TRNS",
             "KC.TRNS",
             "KC.TRNS",
-            "KC.TRNS",
+            "KC.TILDE",
             "KC.F4",
             "KC.NO",
             "KC.F6",
@@ -317,8 +317,8 @@
         ],
         [
             "KC.TO(4)",
-            "KC.TRNS",
-            "KC.TRNS",
+            "KC.LALT(KC.LEFT)",
+            "KC.LALT(KC.RIGHT)",
             "KC.ENT",
             "KC.MW_UP",
             "KC.TRNS",
@@ -336,10 +336,10 @@
             "KC.TRNS",
             "KC.TRNS",
             "KC.TRNS",
-            "",
-            "",
-            "",
-            "",
+            "KC.LCTL(KC.Z)",
+            "KC.LCTL(KC.X)",
+            "KC.LCTL(KC.C)",
+            "KC.LCTL(KC.V)",
             "KC.DEL",
             "KC.TRNS",
             "KC.TRNS",
@@ -513,8 +513,8 @@
     ],
     "pinPrefix": "gp",
     "coordMapSetup": false,
-    "rgbPin": "",
-    "rgbNumLeds": 0,
+    "rgbPin": "board.GP23",
+    "rgbNumLeds": 1,
     "kbFeatures": [
         "basic",
         "serial",
@@ -526,5 +526,5 @@
         "macros"
     ],
     "flashingMode": "automatic",
-    "lastEdited": "2024-08-24 01:16"
+    "lastEdited": "2024-08-25 22:55"
 }
