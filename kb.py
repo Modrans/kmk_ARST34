@@ -7,7 +7,9 @@ from kmk.scanners import DiodeOrientation
 from kmk.scanners.keypad import KeysScanner
 
 class POGKeyboard(KMKKeyboard):
-    def __init__(self, features=['basic']):
+#   def __init__(self, features=['basic', 'capsword']):             # boots, no change in functionalily
+    def __init__(self, features=['basic']):    
+
         if "basic" in features:
             from kmk.modules.layers import Layers;
             combo_layers = {
